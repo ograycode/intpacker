@@ -2,6 +2,10 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/ograycode/intpacker.svg)](https://pkg.go.dev/github.com/ograycode/intpacker)
 
+*Unfortunately I don't believe this is possible at the moment because doing addition/subtraction has the potential to overflow into the next number.*
+
+-------
+
 Just have a few ints to track, but don't want the overhead of channels or mutexex? Neither did I. So I decided to pack many numbers into a single number.
 
 This is experimental.
